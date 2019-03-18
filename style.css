@@ -1,0 +1,63 @@
+body{
+    margin: 10px;
+}
+#TitleBar{
+    display: flex;
+}
+#TitleBar nav{
+    left: 150px;
+}
+#TitleBar a{
+margin-right: 100px;
+}
+#TitleBar h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+#main{
+    background-color: bisque;
+   
+}
+
+#main h1, form{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 60px;
+    font-family: 'Arvo', serif;
+    display:flex;
+    text-decoration: none;
+    position: absolute;
+    /* margin-left: 730px;
+    margin-right: 25%;
+    margin-top: 35%; */
+    padding: 40px;
+    margin-left: 20%;
+    z-index: 1;
+}
+#main form {
+    padding: 200px 45px;
+    margin-right: 40px;
+}
+
+#main form input{
+    width: 200%;
+}
+
+#main form button{
+    width: 60%;
+    
+}
+
+#divVide{
+    background: white;
+
+}
+.mainImage{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    opacity: 0.8;
+}
